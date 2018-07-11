@@ -21,7 +21,7 @@ public class HelloTest {
 		
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\srividya.manoharan\\Documents\\Eclipse-Oxygen\\Drivers\\chromedriver_win32_New\\chromedriver.exe");
 		driver = new ChromeDriver();
-		driver.get("http://demoaut.com");
+		driver.get("http://www.newtours.demoaut.com/");
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 		
 	}
